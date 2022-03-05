@@ -54,8 +54,8 @@ class VPosClientProvider implements VPosClientProviderInterface
 
     protected function getConfigOptionsWithCurrency(string $currency): array
     {
-        foreach ($this->config as $config) {
-            if ($config['currency'] === $currency) {
+        foreach ($this->config[0]['payment_settings'] as $config) {
+            if (isset($config['currency']) && $config['currency'] === $currency) {
                 return $config;
             }
         }
