@@ -3,7 +3,7 @@
 namespace Symfony\Component\DependencyInjection\Loader\Configurator;
 
 use KHTools\VPosBundle\Providers\VPosClientProvider;
-use KHTools\VPosBundle\VPosClientProviderInterface;
+use KHTools\VPos\VPosClientProviderInterface;
 use Psr\Http\Client\ClientInterface;
 
 return static function (ContainerConfigurator $container) {
