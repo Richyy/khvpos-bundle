@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "php": "^7.4|>=8.0",
-    "connorhu/khvpos": "v1.0.5",
+    "php": "^7.4|^8.0|^8.1",
+    "connorhu/khvpos": "v1.0.4",
     "symfony/http-client": "^6.0",
     "nyholm/psr7": "^1.4"
   },
